@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face{
+    font-family: Estedad;
+    src: url(../font/Estedad-Regular.ttf);
+}
+@theme{
+    --font-Estedad:Estedad;
+}
+.active{
+    background-image: url(../img/header/1.jpg);
+    
+}
